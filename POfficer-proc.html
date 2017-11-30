@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Procurement</title>
+        <title>Procure to pay</title>
         <link rel="stylesheet" type="text/css" href ="template.css">
         <link rel="stylesheet" type="text/css" href ="tab-layout.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -21,9 +21,8 @@
         <!--Side Navigation bar-->
         <nav>
 			<ul class="ul-sidenav">
-                <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/pro.png"/> Procurement </a></li>
-                <li class="li-sidenav"><a href="POfficer-pay.html"><img class="icons" src="./icons/pay.png"/> Payment Process </a></li>
-                <li class="li-sidenav"><a href="Procurement-Officer-Assets.html"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
+                <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/pro.png"/> Procure to Pay </a></li>
+                <li class="li-sidenav"><a href="POfficer-assets.html"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
                 <li class="li-sidenav"><a href="POfficer-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
                 <li class="li-sidenav"><a href="POfficer-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
 			</ul>
@@ -33,6 +32,7 @@
             <ul>
                 <li><a href="#" id= "pofficer-summ-bid" role = "button"> Summary of <br> Bidding</a></li>
                 <li><a href="#" id= "pofficer-supp-contract" role = "button"> Supplier Contract <br>Management</a></li>
+                <li><a href="#" id= "pofficer-purchase-order-list" role = "button"> Purchase <br> Order List</a></li>
                 <li><a href="#" id= "pofficer-catalog" role = "button"> Item <br> Catalog</a></li>
                 <li class="active"> <a href="#" id= "pofficer-list-req" role = "button"> List of <br> Requests </a></li>
             </ul>
@@ -90,6 +90,20 @@
                     <td>Handsometimes</td>
                     <td>Nobody</td>
                     <td>Denied</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="PO-purchase-order-list" style="display:none;">
+        <p id="title"> LIST OF ASSETS</p>
+            <table border='1' id="details">
+                <tr>
+                    <th>purchase-order-list</th>
+                    <th>purchase-order-list</th>
+                    <th>purchase-order-list</th>
+                    <th>purchase-order-list</th>
+                    <th>purchase-order-list</th>
+                    <th>purchase-order-list</th>
                 </tr>
             </table>
         </div>

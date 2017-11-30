@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Procurement</title>
+        <title>Procure to pay</title>
         <link rel="stylesheet" type="text/css" href ="template.css">
         <link rel="stylesheet" type="text/css" href ="tab-layout.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,32 +14,32 @@
             <div id="profile">    
                 <img class="profile-pic" src="./icons/N.png"/>
                 <h1>  MARIJO ALEGA </h1> <br>
-                <div id="vl"><p>Head/ Manager</p></div> 
+                <div id="vl"><p>Procurement head</p></div> 
             </div>
         </header>
 
         <!--Side Navigation bar-->
         <nav>
 			<ul class="ul-sidenav">
-                    <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/pro.png"/> Procure to pay </a></li>
-                    <li class="li-sidenav"><a href="HM-assets.html"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
-                    <li class="li-sidenav"><a href="HM-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
-                    <li class="li-sidenav"><a href="HM-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
+                <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/pro.png"/> Procure to Pay </a></li>
+                <li class="li-sidenav"><a href="Phead-assets.html"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
+                <li class="li-sidenav"><a href="Phead-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
+                <li class="li-sidenav"><a href="Phead-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
 			</ul>
         </nav>
         
         <div id="tabbed">
             <ul>
-                <li><a href="#" id= "hm-summ-bid" role = "button"> Summary of <br> Bidding</a></li>
-                <li><a href="#" id= "hm-supp-contract" role = "button"> Supplier Contract <br>Management</a></li>
-                <li><a href="#" id= "hm-purchase-order-list" role = "button"> Purchase <br> Order List</a></li>
-                <li><a href="#" id= "hm-catalog" role = "button"> Item <br> Catalog</a></li>
-                <li class="active"> <a href="#" id= "hm-list-req" role = "button"> List of <br> Requests </a></li>
+                <li><a href="#" id= "phead-summ-bid" role = "button"> Summary of <br> Bidding</a></li>
+                <li><a href="#" id= "phead-supp-contract" role = "button"> Supplier Contract <br>Management</a></li>
+                <li><a href="#" id= "phead-purchase-order-list" role = "button"> Purchase <br> Order List</a></li>
+                <li><a href="#" id= "phead-catalog" role = "button"> Item <br> Catalog</a></li>
+                <li class="active"> <a href="#" id= "phead-list-req" role = "button"> List of <br> Requests </a></li>
             </ul>
         </div>
 
 
-    <div id="HM-list-req">
+    <div id="PH-list-req">
         <p id="title"> LIST OF ASSETS</p>
         <table border='1' id="details">
             <tr>
@@ -71,7 +71,7 @@
         </table>
         </div>
 
-        <div id="HM-catalog" style="display:none;">
+        <div id="PH-catalog" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
@@ -93,7 +93,8 @@
                 </tr>
             </table>
         </div>
-        <div id="HM-purchase-order-list" style="display:none;">
+
+        <div id="PH-purchase-order-list" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
@@ -107,7 +108,7 @@
             </table>
         </div>
         
-        <div id="HM-supp-contract" style="display:none;">
+        <div id="PH-supp-contract" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
@@ -121,7 +122,7 @@
             </table>
         </div>
         
-        <div id="HM-summ-bid" style="display:none;">
+        <div id="PH-summ-bid" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>

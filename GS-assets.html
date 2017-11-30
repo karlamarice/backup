@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Procurement</title>
+        <title>Assets</title>
         <link rel="stylesheet" type="text/css" href ="template.css">
         <link rel="stylesheet" type="text/css" href ="tab-layout.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -13,33 +13,32 @@
         <header>
             <div id="profile">    
                 <img class="profile-pic" src="./icons/N.png"/>
-                <h1>  MARIJO ALEGA </h1> <br>
-                <div id="vl"><p>Head/ Manager</p></div> 
+                <h1>  get db name </h1> <br>
+                <div id="vl"><p>GS</p></div> 
             </div>
         </header>
 
         <!--Side Navigation bar-->
         <nav>
 			<ul class="ul-sidenav">
-                    <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/pro.png"/> Procure to pay </a></li>
-                    <li class="li-sidenav"><a href="HM-assets.html"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
-                    <li class="li-sidenav"><a href="HM-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
-                    <li class="li-sidenav"><a href="HM-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
+                    <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
+                    <li class="li-sidenav"><a href="GS-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
+                    <li class="li-sidenav"><a href="GS-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li> <!--LOGOFF.PHP-->
 			</ul>
         </nav>
-        
-        <div id="tabbed">
-            <ul>
-                <li><a href="#" id= "hm-summ-bid" role = "button"> Summary of <br> Bidding</a></li>
-                <li><a href="#" id= "hm-supp-contract" role = "button"> Supplier Contract <br>Management</a></li>
-                <li><a href="#" id= "hm-purchase-order-list" role = "button"> Purchase <br> Order List</a></li>
-                <li><a href="#" id= "hm-catalog" role = "button"> Item <br> Catalog</a></li>
-                <li class="active"> <a href="#" id= "hm-list-req" role = "button"> List of <br> Requests </a></li>
-            </ul>
+
+        <div id="tab-asset">
+                <div id="tabbed">
+                    <ul>
+                        <li><a href="#" id= "gs-trans" role = "button"> <br>Transfer  </a></li>
+                        <li><a href="#" id= "gs-req-list" role = "button"> Request <br>List</a></li>
+                        <li><a href="#" id= "gs-req-item" role = "button"> Request <br> Item</a></li>
+                        <li class="active"> <a href="#" id= "gs-view-asset" role = "button"> View List <br> Assets </a></li>
+                    </ul>
+                </div>
         </div>
 
-
-    <div id="HM-list-req">
+        <div id="GS-View-Assets">
         <p id="title"> LIST OF ASSETS</p>
         <table border='1' id="details">
             <tr>
@@ -71,7 +70,7 @@
         </table>
         </div>
 
-        <div id="HM-catalog" style="display:none;">
+        <div id="GS-Req-Items" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
@@ -93,21 +92,7 @@
                 </tr>
             </table>
         </div>
-        <div id="HM-purchase-order-list" style="display:none;">
-        <p id="title"> LIST OF ASSETS</p>
-            <table border='1' id="details">
-                <tr>
-                    <th>purchase-order-list</th>
-                    <th>purchase-order-list</th>
-                    <th>purchase-order-list</th>
-                    <th>purchase-order-list</th>
-                    <th>purchase-order-list</th>
-                    <th>purchase-order-list</th>
-                </tr>
-            </table>
-        </div>
-        
-        <div id="HM-supp-contract" style="display:none;">
+        <div id="GS-Req-list" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
@@ -118,19 +103,27 @@
                     <th>Assigned By</th>
                     <th>Date</th>
                 </tr>
+        
+                <tr>
+                    <td>REQ-ITEM</td>
+                    <td>REQ-ITEM</td>
+                    <td>REQ-ITEM</td>
+                    <td>REQ-ITEM</td>
+                    <td>REQ-ITEM</td>
+                    <td>REQ-ITEM</td>
+                </tr>
             </table>
         </div>
-        
-        <div id="HM-summ-bid" style="display:none;">
+        <div id="GS-transfer" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
             <table border='1' id="details">
                 <tr>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
+                    <th>FFE Code</th>
+                    <th>FFE Number</th>
+                    <th>Item Name</th>
+                    <th>Item Description</th>
+                    <th>Assigned By</th>
+                    <th>Date</th>
                 </tr>
             </table>
         </div>
