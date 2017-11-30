@@ -1,0 +1,34 @@
+UI
+	> View List Assets (Excel lang to literal)
+	> Request Item (Catalog)
+	> Request Item (Form)
+	> Transfer (Form)
+	> Request List (List sa left tulad nung pinagddrawing kong UI or imodify basta may search bar and combobox for sorting xD, tapos ung sa right form [request/transfer], lower right ung progress na puro circle)
+	> Summary of Biddings (Same ng UI ng Request List sa left side, excel naman sa right side) and button for requst for bidding
+	> Bidding Form
+	> Purchase Order List (Same UI with Request List sa left side, tapos ung sa right form [Purchase Order Form], lower right ung progress na puro circle) and button for new Purchase Order
+	> Purchase Order Form
+	> Supplier Contract Management (Same UI with Request List sa left side, tapos sa right form [Supplier Contract Form], lower right ung progress na puro circle) and button for new Contract
+	> Supplier Contract Form
+	> Item Catalog (Same UI with Request List sa left side, tapos sa right form [Item Form]) and button for new Item
+	> Item Form
+	> Vendor/Supplier Form
+
+[ANSELMO]
+	> Request Item (Form)
+	> Transfer (Form)
+	> Bidding Form
+	> Purchase Order Form
+	> Supplier Contract Form	
+	> Item Form
+	> Vendor/Supplier Form
+	
+[ATE MAJO]
+	> View List Assets (Excel lang to literal)
+	> Request Item (Catalog)	
+	> Request List (ung left side lang para isasaksak nalang ung form nung kay elmo sa right side)
+	> Summary of Biddings (ung left side lang para isasaksak nalang ung form nung kay elmo sa right side)
+	> Purchase Order List (ung left side lang para isasaksak nalang ung form nung kay elmo sa right side)
+	> Supplier Contract Management (ung left side lang para isasaksak nalang ung form nung kay elmo sa right side)	
+	> Item Catalog (ung left side lang para isasaksak nalang ung form nung kay elmo sa right side)	
+	> UI per position

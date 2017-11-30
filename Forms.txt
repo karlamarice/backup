@@ -1,0 +1,42 @@
+[FORMS] - laman per forms
+	> Request Item *na kay elmo na ung paper 
+	> Transfer *na kay elmo na ung paper 
+	> Bidding / Vendor or Supplier Form (iisa lang pala sila HAHAHA)
+		- Contractor Information
+			- Contractor Name
+			- Phone
+			- Email
+		- Company Information
+			- Company Name
+			- Owner Name
+			- Address
+			- Phone
+			- Email
+		- Propose Contractor
+			- Item
+			- Propose Specification
+			- Warranty
+			- Price
+		- Additional Info about Proposal (Parang pag nagsurvey sa SIS, ung pinakadulo)
+	> Purchase Order *na kay elmo na ung paper 
+	> Supplier Contract Form	
+		- Contractor Information
+			- Contractor Name
+			- Phone
+			- Email
+		- Company Information
+			- Company Name
+			- Owner Name
+			- Address
+			- Phone
+			- Email
+		- Contract Information
+			- Item
+			- Propose Specification
+			- Warranty
+			- Price
+			- Expiration Date
+	> Item Form
+		- Image
+		- Item Name
+		- Item Code

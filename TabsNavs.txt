@@ -1,0 +1,126 @@
+Employee
+Asset Management
+		View List Assets
+		Request Item
+		o	Magadd daw nung button para sa request na wala sa catalog, ggwan ng form or standard na inputs	
+		Transfer
+		o	Yung form lang to
+		Request List (Pinagsama ko na lahat ng request para di hassle sa paggawa ng UI tsaka para simple din xD)
+		o 	List of Transfer Request and Request for an item (Ung UI neto ung katulad ng pinagddrawing ko ung may listahan sa left tas form sa right na may bilog bilog na kung ano)
+		o	Kapag need ng approval mo (kung sayo ttransfer or sa subordinate mo ttransfer), madadagdagan ng checkbox ung form para sa approval mo
+		o	Pwede ding iarrange ung request pati magsearch	
+
+Head Or Manager
+Asset Management
+		View List Assets
+		Request Item
+		o	Magadd daw nung button para sa request na wala sa catalog, ggwan ng form or standard na inputs	
+		Transfer
+		o	Yung form lang to
+		Request List (Pinagsama ko na lahat ng request para di hassle sa paggawa ng UI tsaka para simple din xD)
+		o 	List of Transfer Request and Request for an item (Ung UI neto ung katulad ng pinagddrawing ko ung may listahan sa left tas form sa right na may bilog bilog na kung ano)
+		o	Kapag need ng approval mo kung sayo ttransfer or sa subordinate mo ttransfer), pwedeng matoggle ung checkbox
+		o	Pwede ding iarrange ung request pati magsearch
+
+Procure to Pay
+		Request List (Same ung UI ng lahat ng List, ung laman lang sa right side nagiiba pati form)
+		o	List of Request for an item (Pwedeng matoggle ung checkbox, kasi siya nagaapprove)
+		o	Pwede ding iarrange ung request pati magsearch
+		Summary of Biddings (Same ung UI ng request list, ung sa kanang side naman excel itsura)
+		o	List ng Request for Bidding
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa request for bidding (diretso sa form)
+		Purchase Order List (Same ung UI ng request list, ung kanang side form)
+		o	List ng PO
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa new Purchase Order (diretso sa form)
+		Supplier Contract Management (Same ung UI ng request list, ung kanang side form)
+		o	List of Contracts
+		o	Button for add new contract
+		o	Pwede ding iarrange ung request pati magsearch
+		Item Catalog (Same ung UI ng request list, ung kanang side form)
+		o	List of Items
+		o	Button for add new item
+		o	Pwede ding iarrange ung request pati magsearch
+		
+Procurement Officer
+Asset Management
+		View List Assets
+		Request Item
+		o	Magadd daw nung button para sa request na wala sa catalog, ggwan ng form or standard na inputs	
+		Transfer
+		o	Yung form lang to
+		Request List (Pinagsama ko na lahat ng request para di hassle sa paggawa ng UI tsaka para simple din xD)
+		o 	List of Transfer Request and Request for an item (Ung UI neto ung katulad ng pinagddrawing ko ung may listahan sa left tas form sa right na may bilog bilog na kung ano)
+		o	Kapag need ng approval mo kung sayo ttransfer or sa subordinate mo ttransfer), pwedeng matoggle ung checkbox
+		o	Pwede ding iarrange ung request pati magsearch
+
+Procure to Pay
+		Request List (Same ung UI ng lahat ng List, ung laman lang sa right side nagiiba pati form)
+		o	List of Request for an item (BAWAL matoggle ung checkbox, kasi siya nagaapprove)
+		o	Pwede ding iarrange ung request pati magsearch
+		Summary of Biddings (Same ung UI ng request list, ung sa kanang side naman excel itsura)
+		o	List ng Request for Bidding
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa request for bidding (diretso sa form)
+		Purchase Order List (Same ung UI ng request list, ung kanang side form)
+		o	List ng PO
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa new Purchase Order (diretso sa form)
+		Supplier Contract Management (Same ung UI ng request list, ung kanang side form)
+		o	List of Contracts
+		o	Button for add new contract
+		o	Pwede ding iarrange ung request pati magsearch
+		Item Catalog (Same ung UI ng request list, ung kanang side form)
+		o	List of Items
+		o	Button for add new item
+		o	Pwede ding iarrange ung request pati magsearch
+		
+Procurement Head
+Asset Management
+		View List Assets
+		Request Item
+		o	Magadd daw nung button para sa request na wala sa catalog, ggwan ng form or standard na inputs	
+		Transfer
+		o	Yung form lang to
+		Request List (Pinagsama ko na lahat ng request para di hassle sa paggawa ng UI tsaka para simple din xD)
+		o 	List of Transfer Request and Request for an item (Ung UI neto ung katulad ng pinagddrawing ko ung may listahan sa left tas form sa right na may bilog bilog na kung ano)
+		o	Kapag need ng approval mo kung sayo ttransfer or sa subordinate mo ttransfer), pwedeng matoggle ung checkbox
+		o	Pwede ding iarrange ung request pati magsearch
+
+Procure to Pay
+		Request List (Same ung UI ng lahat ng List, ung laman lang sa right side nagiiba pati form)
+		o	List of Request for an item (BAWAL matoggle ung checkbox, kasi siya nagaapprove)
+		o	Pwede ding iarrange ung request pati magsearch
+		Summary of Biddings (Same ung UI ng request list, ung sa kanang side naman excel itsura)
+		o	List ng Request for Bidding
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa request for bidding (diretso sa form)
+		Purchase Order List (Same ung UI ng request list, ung kanang side form)
+		o	List ng PO (Pwedeng matoggle ung checkbox, kasi siya nagaapprove)
+		o	Pwede ding iarrange ung request pati magsearch
+		o	Button para sa new Purchase Order (diretso sa form)
+		Supplier Contract Management (Same ung UI ng request list, ung kanang side form)
+		o	List of Contracts
+		o	Button for add new contract
+		o	Pwede ding iarrange ung request pati magsearch
+		Item Catalog (Same ung UI ng request list, ung kanang side form)
+		o	List of Items
+		o	Button for add new item
+		o	Pwede ding iarrange ung request pati magsearch
+		
+GS
+Asset Management
+		View List Assets
+		Request Item
+		o	Magadd daw nung button para sa request na wala sa catalog, ggwan ng form or standard na inputs	
+		Transfer
+		o	Yung form lang to
+		Request List (Pinagsama ko na lahat ng request para di hassle sa paggawa ng UI tsaka para simple din xD)
+		o 	List of Transfer Request and Request for an item (Ung UI neto ung katulad ng pinagddrawing ko ung may listahan sa left tas form sa right na may bilog bilog na kung ano)
+		o	Kapag need ng approval mo kung sayo ttransfer or sa subordinate mo ttransfer), pwedeng matoggle ung checkbox
+		o	Pwede ding iarrange ung request pati magsearch
+		
+Vendor/Supplier
+	o	Code
+	o 	Form
