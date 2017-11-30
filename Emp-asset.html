@@ -28,18 +28,19 @@
         </nav>
 
         <div id="tab-asset">
-                <div id="tabbed">
-                    <ul>
-                        <li><a href="#" id= "emp-trans" role = "button"> <br>Transfer  </a></li>
-                        <li><a href="#" id= "emp-req-list" role = "button"> Request <br>List</a></li>
-                        <li><a href="#" id= "emp-req-item" role = "button"> Request <br> Item</a></li>
-                        <li class="active"> <a href="#" id= "emp-view-asset" role = "button"> View List <br> Assets </a></li>
-                    </ul>
-                </div>
+            <div id="tabbed">
+                <ul>
+                    <li><a href="#" id= "emp-trans" role = "button"> <br>Transfer  </a></li>
+                    <li><a href="#" id= "emp-req-list" role = "button"> Request <br>List</a></li>
+                    <li><a href="#" id= "emp-req-item" role = "button"> Request <br> Item</a></li>
+                    <li class="active"> <a href="#" id= "emp-view-asset" role = "button"> View List <br> Assets </a></li>
+                </ul>
+            </div>
         </div>
 
-        <div id="Emp-View-Assets">
+        <div id="Emp-View-Assets" >
         <p id="title"> LIST OF ASSETS</p>
+        <button class="export-btn" id="export"> Export </button> <!--Wala pang ginagawa-->
         <table border='1' id="details">
             <tr>
                 <th>FFE Code</th>
@@ -71,61 +72,26 @@
         </div>
 
         <div id="Emp-Req-Items" style="display:none;">
-        <p id="title"> LIST OF ASSETS</p>
-            <table border='1' id="details">
-                <tr>
-                    <th>FFE Code</th>
-                    <th>FFE Number</th>
-                    <th>Item Name</th>
-                    <th>Item Description</th>
-                    <th>Assigned By</th>
-                    <th>Date</th>
-                </tr>
-        
-                <tr>
-                    <td>M#6uHAKuja</td>
-                    <td>X5Pruk%bRa</td>
-                    <td>Anselmo Francia</td>
-                    <td>Handsometimes</td>
-                    <td>Nobody</td>
-                    <td>Denied</td>
-                </tr>
-            </table>
+            <p id="title">REQUEST ITEM</p>
+            <button class="export-btn" id="New-item"> New Request </button> <!--Wala pang ginagawa-->
+            <div id="container">
+                <div id="item">
+                    <div class="item-img"><img src="./images/item1.png" width="125" height="185"></div>
+                    <div class="item-desc"> Sample data: Lenovo A6600 Plus 2GBRAM/16GB ROM (Black) </div>
+                </div>
+                <div id="item"></div>
+                <div id="item"></div>
+                <div id="item"></div>
+                <div id="item"></div>
+            </div>
         </div>
+
         <div id="Emp-Req-list" style="display:none;">
-        <p id="title"> LIST OF ASSETS</p>
-            <table border='1' id="details">
-                <tr>
-                    <th>FFE Code</th>
-                    <th>FFE Number</th>
-                    <th>Item Name</th>
-                    <th>Item Description</th>
-                    <th>Assigned By</th>
-                    <th>Date</th>
-                </tr>
-        
-                <tr>
-                    <td>REQ-ITEM</td>
-                    <td>REQ-ITEM</td>
-                    <td>REQ-ITEM</td>
-                    <td>REQ-ITEM</td>
-                    <td>REQ-ITEM</td>
-                    <td>REQ-ITEM</td>
-                </tr>
-            </table>
+        <p id="title"> REQUEST LIST</p>
         </div>
+
         <div id="Emp-transfer" style="display:none;">
-        <p id="title"> LIST OF ASSETS</p>
-            <table border='1' id="details">
-                <tr>
-                    <th>FFE Code</th>
-                    <th>FFE Number</th>
-                    <th>Item Name</th>
-                    <th>Item Description</th>
-                    <th>Assigned By</th>
-                    <th>Date</th>
-                </tr>
-            </table>
+        <p id="title"> TRANSFER</p>
         </div>
 
 
