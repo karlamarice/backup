@@ -39,95 +39,80 @@
             </div>
         </div>
 
+        <!--==================================================VIEW ASSETS TAB========================================================-->
         <div id="HM-View-Assets">
-                <p id="title"> LIST OF ASSETS</p>
-                <table border='1' id="details">
-                    <tr>
-                        <th>FFE Code</th>
-                        <th>FFE Number</th>
-                        <th>Item Name</th>
-                        <th>Item Description</th>
-                        <th>Assigned By</th>
-                        <th>Date</th>
-                    </tr>
-        
-                    <tr>
-                        <td>M#6uHAKuja</td>
-                        <td>X5Pruk%bRa</td>
-                        <td>Anselmo Francia</td>
-                        <td>Beautiful</td>
-                        <td>Nobody</td>
-                        <td>Denied</td>
-                    </tr>
-        
-                    <tr>
-                        <td>M#6uHAKuja</td>
-                        <td>X5Pruk%bRa</td>
-                        <td>Anselmo Francia</td>
-                        <td>Beautiful</td>
-                        <td>Nobody</td>
-                        <td>Denied</td>
-                    </tr>
-                </table>
+        <p id="title"> LIST OF ASSETS</p>
+        <button class="export-btn" id="export"> Export </button> <!--Wala pang ginagawa-->
+        <table border='1' id="details">
+            <tr>
+                <th>FFE Code</th>
+                <th>FFE Number</th>
+                <th>Item Name</th>
+                <th>Item Description</th>
+                <th>Assigned By</th>
+                <th>Date</th>
+            </tr>
+
+            <tr>
+                <td>M#6uHAKuja</td>
+                <td>X5Pruk%bRa</td>
+                <td>Anselmo Francia</td>
+                <td>Beautiful</td>
+                <td>Nobody</td>
+                <td>Denied</td>
+            </tr>
+
+            <tr>
+                <td>M#6uHAKuja</td>
+                <td>X5Pruk%bRa</td>
+                <td>Anselmo Francia</td>
+                <td>Beautiful</td>
+                <td>Nobody</td>
+                <td>Denied</td>
+            </tr>
+        </table>
+        </div>
+
+        <!--==================================================REQUEST ITEM TAB========================================================-->
+        <div id="HM-Req-Items" style="display:none;">
+            <p id="title">REQUEST ITEM</p>
+            <button class="export-btn" id="New-item"><a href="[Form] Item-Form.html"> New Request </a></button>
+            <button class="req-btn" id="Request"><a href="[Form] Purchase-Req.html"> Request </a></button>
+            <div id="container">
+                <div id="item">
+                    <div class="item-img"><img src="./images/item1.png" width="125" height="185"></div>
+                    <div class="item-desc"> Sample data: Lenovo A6600 Plus 2GBRAM/16GB ROM (Black) </div>
+                    <div class="no-orders"> Number of orders: <input type="number" class="ipt-orders" placeholder="0"></div>
                 </div>
-        
-                <div id="HM-Req-Items" style="display:none;">
-                <p id="title"> LIST OF ASSETS</p>
-                    <table border='1' id="details">
-                        <tr>
-                            <th>FFE Code</th>
-                            <th>FFE Number</th>
-                            <th>Item Name</th>
-                            <th>Item Description</th>
-                            <th>Assigned By</th>
-                            <th>Date</th>
-                        </tr>
                 
-                        <tr>
-                            <td>M#6uHAKuja</td>
-                            <td>X5Pruk%bRa</td>
-                            <td>Anselmo Francia</td>
-                            <td>Handsometimes</td>
-                            <td>Nobody</td>
-                            <td>Denied</td>
-                        </tr>
-                    </table>
+                <div id="item">
+                    <div class="item-img"><img src="./images/item2.png" width="125" height="185"></div>
+                    <div class="item-desc"> Sample data: Paper One Bond Paper All Purpose Paper 80gsm 8.27in11.69in A4 (5 ream) </div>
+                    <div class="no-orders"> Number of orders: <input type="number" class="ipt-orders" placeholder="0"></div>
                 </div>
-                <div id="HM-Req-list" style="display:none;">
-                <p id="title"> LIST OF ASSETS</p>
-                    <table border='1' id="details">
-                        <tr>
-                            <th>FFE Code</th>
-                            <th>FFE Number</th>
-                            <th>Item Name</th>
-                            <th>Item Description</th>
-                            <th>Assigned By</th>
-                            <th>Date</th>
-                        </tr>
-                    
-                        <tr>
-                            <td>REQ-ITEM</td>
-                            <td>REQ-ITEM</td>
-                            <td>REQ-ITEM</td>
-                            <td>REQ-ITEM</td>
-                            <td>REQ-ITEM</td>
-                            <td>REQ-ITEM</td>
-                        </tr>
-                    </table>
+
+                <div id="item">
+                    <div class="item-img"><img src="./images/item3.png" width="125" height="185"></div>
+                    <div class="item-desc"> Sample data: ihome 31-2 Mesh Office Chair with Headrest (Black) </div>
+                    <div class="no-orders"> Number of orders: <input type="number" class="ipt-orders" placeholder="0"></div>
                 </div>
-                <div id="HM-transfer" style="display:none;">
-                <p id="title"> LIST OF ASSETS</p>
-                    <table border='1' id="details">
-                        <tr>
-                            <th>FFE Code</th>
-                            <th>FFE Number</th>
-                            <th>Item Name</th>
-                            <th>Item Description</th>
-                            <th>Assigned By</th>
-                            <th>Date</th>
-                        </tr>
-                    </table>
+                <div id="item">
+                    <div class="item-img"><img src="./images/item4.png" width="125" height="185"></div>
+                    <div class="item-desc"> Sample data: ihome 31-2 Mesh Office Chair with Headrest (Black) </div>
+                    <div class="no-orders"> Number of orders: <input type="number" class="ipt-orders" placeholder="0"></div>
                 </div>
+            </div>
+        </div>
+
+        <!--==================================================REQUEST LIST TAB========================================================-->
+        <div id="HM-Req-list" style="display:none;">
+        <p id="title"> REQUEST LIST</p>
+        </div>
+
+        <!--==================================================TRANSFER TAB========================================================-->
+        <div id="HM-transfer" style="display:none;">
+        <p id="title"> TRANSFER</p>
+        </div>
         
     </body>
 </html>

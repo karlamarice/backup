@@ -7,7 +7,7 @@
     font-family: "Arial";
     color: black;
     font-size: 22;
-    width: 200px;
+    width: 300px;
 }
 
 #details {
@@ -41,27 +41,6 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.export-btn {
-    float: right;
-    margin-right: 35px;
-    margin-top:-65px;
-    background-color: #4CAF50;
-    border-radius: rgb(70, 158, 73);
-    color: white;
-    border-width: thin;
-    padding: 12px 30px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 15px;
-}
-
-.export-btn:hover {
-    background-color: rgb(68, 155, 70);
-    color: white;
-}
-
 /** ---------------------------ASSETS - REQUEST ITEM---------------------------**/
 #container {
     margin-left: 308px;
@@ -83,6 +62,53 @@ tr:nth-child(even) {
     border: 1px solid #e7e7e7;
 }
 
+.export-btn {
+    text-decoration: none;
+    float: right;
+    margin-right: 55px;
+    margin-top:-65px;
+    background-color: #4CAF50;
+    border-radius: rgb(70, 158, 73);
+    color: white;
+    border-width: thin;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.export-btn:hover {
+    background-color: rgb(68, 155, 70);
+    color: white;
+}
+
+.req-btn {
+    float: right;
+    margin-right: 220px;
+    margin-top:-65px;
+    background-color: #4CAF50;
+    border-radius: rgb(70, 158, 73);
+    color: white;
+    border-width: thin;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.req-btn:hover {
+    background-color: rgb(68, 155, 70);
+    color: white;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
 .item-img {
     width: 150;
     height: 200;
@@ -97,4 +123,73 @@ tr:nth-child(even) {
     margin-top: 8px;
     font-family: 'Verdana';
     font-size: 12;
+}
+
+.no-orders {
+    width: 215px;
+    margin-left:23px;
+    margin-top: 5px;
+    font-family: 'Verdana';
+    font-size: 12;
+    color: rgb(145, 144, 144);
+}
+
+.ipt-orders {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+/** ---------------------------TRANSFER---------------------------**/
+.search-container {
+    margin-top: -15px;
+    margin-left: 310px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 480px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 420px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./icons/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.transfer-form {
+    text-decoration: none;
+    margin-top:230px;
+    background-color: #4CAF50;
+    border-radius: rgb(70, 158, 73);
+    color: white;
+    border-width: thin;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.transfer-btn:hover {
+    background-color: rgb(68, 155, 70);
+    color: white;
 }
