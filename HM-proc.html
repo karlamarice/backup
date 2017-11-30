@@ -2,6 +2,8 @@
     <head>
         <title>Procurement</title>
         <link rel="stylesheet" type="text/css" href ="template.css">
+        <link rel="stylesheet" type="text/css" href ="tab-layout.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script language="javascript" src="Tabs.js"></script>
     </head>
 
@@ -25,18 +27,100 @@
                     <li class="li-sidenav"><a href="HM-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
 			</ul>
         </nav>
+        
+        <div id="tabbed">
+            <ul>
+                <li><a href="#" id= "hm-summ-bid" role = "button"> Summary of <br> Bidding</a></li>
+                <li><a href="#" id= "hm-supp-contract" role = "button"> Supplier Contract <br>Management</a></li>
+                <li><a href="#" id= "hm-catalog" role = "button"> Item <br> Catalog</a></li>
+                <li class="active"> <a href="#" id= "hm-list-req" role = "button"> List of <br> Requests </a></li>
+            </ul>
+        </div>
 
-        <div id="tab-proc">
-                <div id="tabbed">
-                    <ul>
-                        <li> Summary of <br> Bidding  </li>
-                        <li> Supplier Contract<br>Management  </li>
-                        <li> Item <br> Catalog</li>
-                        <li class="active">List of <br> Requests</li>
-                    </ul>
-                </div>
-            </div>
-    
+
+    <div id="HM-list-req">
+        <p id="title"> LIST OF ASSETS</p>
+        <table border='1' id="details">
+            <tr>
+                <th>FFE Code</th>
+                <th>FFE Number</th>
+                <th>Item Name</th>
+                <th>Item Description</th>
+                <th>Assigned By</th>
+                <th>Date</th>
+            </tr>
+
+            <tr>
+                <td>M#6uHAKuja</td>
+                <td>X5Pruk%bRa</td>
+                <td>Anselmo Francia</td>
+                <td>Beautiful</td>
+                <td>Nobody</td>
+                <td>Denied</td>
+            </tr>
+
+            <tr>
+                <td>M#6uHAKuja</td>
+                <td>X5Pruk%bRa</td>
+                <td>Anselmo Francia</td>
+                <td>Beautiful</td>
+                <td>Nobody</td>
+                <td>Denied</td>
+            </tr>
+        </table>
+        </div>
+
+        <div id="HM-catalog" style="display:none;">
+        <p id="title"> LIST OF ASSETS</p>
+            <table border='1' id="details">
+                <tr>
+                    <th>FFE Code</th>
+                    <th>FFE Number</th>
+                    <th>Item Name</th>
+                    <th>Item Description</th>
+                    <th>Assigned By</th>
+                    <th>Date</th>
+                </tr>
+        
+                <tr>
+                    <td>M#6uHAKuja</td>
+                    <td>X5Pruk%bRa</td>
+                    <td>Anselmo Francia</td>
+                    <td>Handsometimes</td>
+                    <td>Nobody</td>
+                    <td>Denied</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="HM-supp-contract" style="display:none;">
+        <p id="title"> LIST OF ASSETS</p>
+            <table border='1' id="details">
+                <tr>
+                    <th>FFE Code</th>
+                    <th>FFE Number</th>
+                    <th>Item Name</th>
+                    <th>Item Description</th>
+                    <th>Assigned By</th>
+                    <th>Date</th>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="HM-summ-bid" style="display:none;">
+        <p id="title"> LIST OF ASSETS</p>
+            <table border='1' id="details">
+                <tr>
+                    <th>Test</th>
+                    <th>Test</th>
+                    <th>Test</th>
+                    <th>Test</th>
+                    <th>Test</th>
+                    <th>Test</th>
+                </tr>
+            </table>
+        </div>
+
 
     </body>
 </html>
