@@ -7,7 +7,7 @@
     font-family: "Arial";
     color: black;
     font-size: 22;
-    width: 300px;
+    width: 500px;
 }
 
 #details {
@@ -147,14 +147,63 @@ a:hover, a:visited, a:link, a:active
     text-align: left;
 }
 
+/** ---------------------------REQUEST LIST---------------------------**/
+.table {
+    display: table;
+    background-color: #ffffff;
+}
+.row {
+    display: table-row;
+    height: 50px;
+
+}
+.cell {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    padding: 12px;
+    width: 900px;
+}
+
+.row:hover {
+    background-color: #cccccc;
+}
+.cell:hover {
+    background-color: #cccccc;
+}
+
 /** ---------------------------TRANSFER---------------------------**/
+
+.Reqitem-container {
+    margin-top: -15px;
+    margin-left: 310px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    width: 480px;
+}
+
+.preview-right {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: -200px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    min-height: 600px;
+    width: 500px;
+}
+
 .search-container {
     margin-top: -15px;
     margin-left: 310px;
     background: white;
     font-size: 17px;
     border: none;
-    cursor: pointer;
     height: 300px;
     width: 480px;
 }
@@ -177,12 +226,13 @@ a:hover, a:visited, a:link, a:active
 
 .transfer-form {
     text-decoration: none;
-    margin-top:230px;
+    margin-top:-350px;
+    margin-left: 650px;
     background-color: #4CAF50;
     border-radius: rgb(70, 158, 73);
     color: white;
     border-width: thin;
-    padding: 12px 30px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;

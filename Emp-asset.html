@@ -23,7 +23,6 @@
         <nav>
 			<ul class="ul-sidenav">
                 <li class="li-sidenav"><a href="#"><img class="icons" src="./icons/ass.png"/> Asset Management </a></li>
-                <li class="li-sidenav"><a href="Emp-acct.html"><img class="icons" src="./icons/MA.png"/>My Account</a></li>
                 <li class="li-sidenav"><a href="Emp-out.html"><img class="icons" src="./icons/SO.png"/>Sign out</a></li>
 			</ul>
         </nav>
@@ -31,19 +30,19 @@
         <div id="tab-asset">
             <div id="tabbed">
                 <ul>
-                    <li><a href="#" id= "emp-trans" role = "button"> <br>Transfer  </a></li>
-                    <li><a href="#" id= "emp-req-list" role = "button"> Request <br>List</a></li>
+                    <li class="active"><a href="#" id= "emp-trans" role = "button"> <br>Transfer  </a></li>
+                    <li ><a href="#" id= "emp-req-list" role = "button"> Request <br>List</a></li>
                     <li><a href="#" id= "emp-req-item" role = "button"> Request <br> Item</a></li>
-                    <li class="active"><a href="#" id= "emp-view-asset" role = "button"> View List <br> Assets </a></li>
+                    <li ><a href="#" id= "emp-view-asset" role = "button"> View List <br> Assets </a></li>
                 </ul>
             </div>
         </div>
 
         <!--==================================================VIEW ASSETS TAB========================================================-->
-        <div id="Emp-View-Assets">
+        <div id="Emp-View-Assets" style="display:none;">
         <p id="title"> LIST OF ASSETS</p>
-        <button class="export-btn" id="export"> Export </button> <!--Wala pang ginagawa-->
-        <table border='1' id="details">
+        <button class="export-btn"   id="export"> Export </button> <!--Wala pang ginagawa-->
+        <table id="details">
             <tr>
                 <th>FFE Code</th>
                 <th>FFE Number</th>
@@ -107,20 +106,42 @@
         <!--==================================================REQUEST LIST TAB========================================================-->
         <div id="Emp-Req-list" style="display:none;">
         <p id="title"> REQUEST LIST</p>
+            <div class="Reqitem-container">
+                <div class="table">
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Mouse
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Upuan
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Mouse
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Upuan
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <!--==================================================TRANSFER TAB========================================================-->
-        <div id="Emp-transfer" style="display:none;">
+        <div id="Emp-transfer" >
         <p id="title"> TRANSFER / RECEIVE</p>
             <div class="search-container">
                 <form action="/action_page.php">
                   <input type="text" class="search" placeholder="Search.." name="search">
                 </form>
-                <button class="transfer-form" id="Transfer"><a href="[Form] Property-Transfer.html"> Transfer Form </a></button>
             </div>
-
+            <button class="transfer-form" id="Transfer"><a href="[Form] Property-Transfer.html"> Transfer Form </a></button>
         </div>
-
 
     </body>
 </html>
