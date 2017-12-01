@@ -40,6 +40,7 @@
 
         <div id="GS-View-Assets">
         <p id="title"> LIST OF ASSETS</p>
+        <button class="export-btn"   id="export"> Export </button> <!--Wala pang ginagawa-->
         <table border='1' id="details">
             <tr>
                 <th>FFE Code</th>
@@ -103,14 +104,42 @@
         
         <!--==================================================REQUEST LIST TAB========================================================-->
         <div id="GS-Req-list" style="display:none;">
-        <p id="title"> REQUEST LIST</p>
-        </div>
+            <p id="title"> REQUEST LIST</p>
+            <div class="Reqitem-container">
+                <div class="table">
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Mouse
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Upuan
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Mouse
+                        </div>
+                    </a>
+                    <a class="row" href="[Form] Purchase-Req.html">
+                        <div class="cell">
+                            Upuan
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>       
 
         <!--==================================================TRANSFER TAB========================================================-->
         <div id="GS-transfer" style="display:none;">
         <p id="title"> TRANSFER</p>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" class="search" placeholder="Search.." name="search">
+                </form>
+            </div>
+            <button class="transfer-form" id="Transfer"><a href="[Form] Property-Transfer.html"> Transfer Form </a></button>
         </div>
-
-
     </body>
 </html>
